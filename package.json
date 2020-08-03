@@ -1,0 +1,16 @@
+{
+  "name": "notepad",
+  "version": "1.0.0",
+  "description": "A simple text editor xD",
+  "main": "app.js",
+  "dependencies": {
+    "electron": "^9.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MrChocolat3",
+  "license": "ISC"
+}

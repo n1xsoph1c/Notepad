@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Notepad - E3Codewares</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/hover/css/hover-min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">  
+<!--===============================================================================================-->
+</head>
+<style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+    .hideme {opacity: 0;}
+    .sidenav {
+      height: 100%;
+      width: 6.94%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #f0eff4;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+
+    .body{
+      height: 100%;
+      margin-left: 12%; 
+      font: 400 15px/1.8 "Lato", sans-serif;
+      color: #262730!important;
+    }
+    
+    h3 {
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font: 20px "Lato", sans-serif;
+      color: #111;
+    }
+
+    .btn{
+      border-radius: 25%;
+    }
+
+    .btn-warning{
+      background-color: #ffba49 !important;
+      color: #f0eff4 !important;
+    }
+
+    .btn-dark{
+      background-color: #262730;
+      color: #f0eff4;
+    }
+
+    .btn-default{
+      background-color: #f0eff4;
+      color: #262730;
+    }
+
+    .btn-warning, .btn-dark, .btn-default{
+      font-size: 1.5rem;
+    }
+    
+    </style>
+<!-- <body onload="fetchTask(); getApps();"> -->
+<body>
+    <!-- Navbar -->
+    <nav class="sidenav  justify-content-center">
+      <ul class="nav flex-column  text-left m-b-10">
+        <li class="nav-item m-b-10">
+          <button class="btn btn-warning navbar-btn hvr-forward animated fadeInLeft hvr-icon-grow-rotate" onclick="createNote()"><i class="fa fa-plus hvr-icon" aria-hidden="true"></i></button>
+        </li>
+
+        <li class="nav-item m-b-10">
+          <button class="btn btn-warning navbar-btn hvr-forward animated fadeInLeft hvr-icon-grow-rotate" onclick="importNote()"><i class="fa fa-folder-o hvr-icon" aria-hidden="true"></i> </button>
+        </li>
+
+        <li class="nav-item m-b-10">
+          <button class="btn btn-warning navbar-btn hvr-forward animated fadeInLeft hvr-icon-grow-rotate" onclick="saveNote()" id="saveNoteBtn"><i class="fa fa-save hvr-icon" aria-hidden="true"></i> </button>
+        </li>
+
+        <li class="nav-item m-b-10">
+          <button class="btn btn-dark navbar-btn hvr-grow-rotate animated fadeInLeft hvr-icon-grow-rotate" onclick="changeTheme()" id="changeThemeBtn"><i class="fa fa-adjust hvr-icon" aria-hidden="true" id="changeButtonIcon"></i> </button>
+        </li>
+      </ul>
+    </nav>
+	
+	<div class="limiter ">
+    <!-- NOTEPAD TAB -->
+      <div class="container-fluid tab-pane fade" id="Notepad">
+        <form class="m-t-10">
+          <div class="form-group animated fadeIn">
+            <input type="text" id="file-path" placeholder="" hidden>
+            <input type="text" class="form-control text-red" id="note-file" placeholder="File: " disabled>
+            <textarea class="form-control-plaintext" rows="25" id="notes" placeholder="Add Notes" maxlength="1500"></textarea>
+          </div>
+        </form>
+
+      </div>
+</div>
+	
+<!-- jQuery library -->
+<!-- <script> window.$ = window.jQuery = require("jquery"); </script> -->
+
+<!-- Latest compiled JavaScript -->
+<script type='text/javascript' src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type='text/javascript' src='js/main.js'></script>
+</body>
+</html>

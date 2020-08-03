@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{A71FD24F-23BB-4A5B-8D73-1AB1191758C9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../app.js">
+    <Files>
+      <File FileName="../app.js" Line="52" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Notepad" expanded="True">
+            <Node name="Notepad" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
+  <MonoDevelop.Ide.ItemProperties.Notepad FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
