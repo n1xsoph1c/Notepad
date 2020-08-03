@@ -68,7 +68,7 @@ function importNote(){
           alert('an error ocurred while importing file ' + err.message);
           return ""
         }
-        x.innerHTML += data 
+        x.value = data;
         var n = path.parse(filename).base;
         f.setAttribute('placeholder', "File: "+ n);
         document.getElementById("file-path").setAttribute("placeholder", filename)

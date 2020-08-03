@@ -94,18 +94,17 @@ textarea
     color: #f0eff4;
     background-color: #262730;
     display: block;
-    font-family: 'Marck Script',cursive;
+    font-family: 'Marck Script', Electrolize;
     font-size: 22px;
     line-height: 50px !important;
     margin: 2% auto;
-    padding: 11px 20px 0 10px;
+    padding: 11px 20px 80px 10px;
     height: 689px;
     width: 100%;
-    
-    background-image: -webkit-linear-gradient(top , transparent, transparent 49px,#65657a 0);
-  
-    -webkit-background-size:  100% 50px;
-    background-size: 100% 50px;
+}
+
+.form-control-plaintext{
+  padding: 0px 10px 80px 10px !important;
 }
 
 textarea:focus, input:focus {

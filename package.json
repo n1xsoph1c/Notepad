@@ -4,7 +4,8 @@
   "description": "A simple text editor xD",
   "main": "app.js",
   "dependencies": {
-    "electron": "^9.1.2"
+    "electron": "^9.1.2",
+    "jquery": "^3.5.1"
   },
   "devDependencies": {},
   "scripts": {

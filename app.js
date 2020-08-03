@@ -13,7 +13,7 @@ function createWindow () {
     width: 1200,
     height: 700,
     webPreferences: {
-	  nodeIntegration: true,
+    nodeIntegration: true,
     }
   })
 
@@ -27,7 +27,7 @@ function createWindow () {
   mainWindow.setResizable(true)
   mainWindow.setMenu(null)
 //   Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
