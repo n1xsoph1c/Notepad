@@ -1,1 +1,1 @@
-Ganja is everything
+Name is chocolate xD 
